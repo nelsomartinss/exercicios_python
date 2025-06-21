@@ -36,7 +36,7 @@ int_qtd_dias_alugado = int(qtd_dias_alugado)
 # VERIFICANDO ENTRADA
 verificando_entrada = int_tipo_carro <= 0 or int_qtd_dias_alugado <= 0
 if verificando_entrada:
-    print('O tipo de carro ou a quantidade de dias alugado são inválidos!')
+    print('\nO tipo de carro ou a quantidade de dias alugado são inválidos!\n')
     exit()
 
 # ENTRADAS
