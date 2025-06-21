@@ -28,18 +28,20 @@ valor_carro_luxo_acima_200km = 0.25
 # ENTRADAS
 tipo_carro = input('Digite o número correspondente ao tipo de carro foi alugado: ')
 qtd_dias_alugado = input('Digite o número de dias que ficou com o carro: ')
-km_percorrido = input('Digite quantos KM foram percorridos: ')
 
 # CONVERSOES
 int_tipo_carro = int(tipo_carro)
 int_qtd_dias_alugado = int(qtd_dias_alugado)
-float_km_percorrido = float(km_percorrido)
 
 # VERIFICANDO ENTRADA
 verificando_entrada = int_tipo_carro <= 0 or int_qtd_dias_alugado <= 0
 if verificando_entrada:
     print('O tipo de carro ou a quantidade de dias alugado são inválidos!')
     exit()
+
+# ENTRADAS
+km_percorrido = input('Digite quantos KM foram percorridos: ')
+float_km_percorrido = float(km_percorrido)
 
 # PROCESSAMENTO - VERIFICACOES
 # CARRO POPULAR
