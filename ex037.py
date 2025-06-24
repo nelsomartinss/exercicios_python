@@ -61,6 +61,7 @@ homem_menos_20 = genero == 'M' and float_tempo_trabalho < 20
 homem_20_30 = genero = 'M' and float_tempo_trabalho >= 20 and float_tempo_trabalho <= 30
 homem_mais_30 = genero = 'M' and float_tempo_trabalho > 30
 
+# PROCESSAMENTO
 if mulher_menos_15:
     porcentagem_aumento = porcentagem_mulher_menos_15
     aumento = float_salario_atual + (float_salario_atual * porcentagem_mulher_menos_15 / 100)
@@ -80,6 +81,7 @@ elif homem_mais_30:
     porcentagem_aumento = porcentagem_homem_mais_30
     aumento = float_salario_atual + (float_salario_atual * porcentagem_homem_mais_30 / 100)
 
+# SAIDA
 print(f"\nSalário atual: R${float_salario_atual :.2f}")
 print(f"Anos de trabalho: {float_tempo_trabalho}")
 print(f"Seu aumento é de +{porcentagem_aumento}%")
