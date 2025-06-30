@@ -42,9 +42,7 @@ Este repositório é uma ferramenta de treino pessoal com foco na **melhoria con
 ## ✍️ Autor
 
 **Nelson Martins**  
-Desenvolvedor em formação | Apaixonado por tecnologia, desenvolvimento pessoal e soluções inteligentes.
-
+Desenvolvedor em formação | Apaixonado por tecnologia e soluções inteligentes.
 🔗 [LinkedIn](https://www.linkedin.com/in/nelsomartinss)
-🐍 [GitHub](https://github.com/nelsomartinss)
 
 ---
