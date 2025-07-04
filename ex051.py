@@ -3,12 +3,12 @@ Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela qu
 '''
 
 i= 1
-maior_valor = 0
-menor_valor = 0
+maior_valor = None
+menor_valor = None
 lista_produtos = []
 
 while i <= 8:
-    preco_produto = input(f'Digite o valor do {i}° produto: ')
+    preco_produto = input(f'Digite o valor do {i}° produto: R$')
 
     try:
         float_preco = float(preco_produto)
@@ -30,5 +30,5 @@ while i <= 8:
 
     i+=1
 
-print(f'O maior valor digitado: R${maior_valor :.2f}')
-print(f'O menor valor digitado: R${menor_valor :.2f}')
+print(f'\nO maior valor digitado: R${maior_valor :.2f}')
+print(f'O menor valor digitado: R${menor_valor :.2f}\n')
