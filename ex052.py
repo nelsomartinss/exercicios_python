@@ -37,7 +37,6 @@ while i <= 10:
     soma+=idade_pessoas
 
 media = soma / 10
-
 print(f'\nMédia da idade das pessoas: {media :.1f}')
 print(f'A maior idade digitada foi: {maior}')
 print(f'A menor idade digitada foi: {menor}\n')
