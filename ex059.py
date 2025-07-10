@@ -31,7 +31,6 @@ while execucao:
         except ValueError:
             print("Erro: Digite um valor numérico inteiro.")
 
-
     while True:
         sexo = input('Digite o seu sexo (m/f): ').lower().replace(' ', '')
         if sexo in sexos_validos:
