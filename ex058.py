@@ -12,7 +12,6 @@ while True:
         idade = int(idade)
     
         if idade == 999:
-            print('\nPrograma encerrado...\nAté a próxima!\n')
             break
         else:
             total_idades+=idade
@@ -31,7 +30,9 @@ while True:
 
     
 
-media = f'{total_idades / total_alunos :.1f}'
+media = str(f'{total_idades / total_alunos :.1f}').replace('.', ',')
 
-print(f'Quantidade de alunos na turma: {total_alunos}')
-print(f'A média de idade dos alunos é: {str(media).replace('.', ',')}\n')
+print(f'\nQuantidade de alunos na turma: {total_alunos}')
+print(f'A média de idade dos alunos é: {media}\n')
+
+print('Programa encerrado...\nAté a próxima!\n')
